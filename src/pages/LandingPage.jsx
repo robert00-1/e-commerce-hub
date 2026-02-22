@@ -1,17 +1,17 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
     return (
         <div className="page-container">
             
             <h1 className="page-title">
-                Welcome to Mmasi R Us
-                </h1>
+                Your One-Stop E-Commerce Hub
+            </h1>
             <p className="page-description">
-                This is the administrator portal for managing products and users.
-                Use the navigation above to view products, add new items and update pricing.
-                </p>
+                Manage your products, track orders, and connect with customers seamlessly.
+                Navigate the dashboard to add new items, update stock, and monitor sales in real-time.
+            </p>
                 
         </div>
     );

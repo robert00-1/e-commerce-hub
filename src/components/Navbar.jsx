@@ -8,7 +8,7 @@ function Navbar() {
         width: "100%",
         alignItems: "center",
         justifyContent: "space-between", 
-        backgroundColor: "#A67C52",
+        backgroundColor: "#333",
         padding: "1rem",
         color: "white",
       }}

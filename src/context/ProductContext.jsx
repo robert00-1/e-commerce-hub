@@ -6,9 +6,6 @@ const mockProducts = [
 { id:2, name: "Coffee Name", description: "Description", origin: "Origin", price: "price" },
 {id: 3, name: "Coffee Name", description: "Description", origin:"Origin", price: "price" },
 { id:4, name: "Coffee Name", description: "Description", origin: "Origin", price: "price"},
-{id: 5, name: "Coffee Name", description: "Description", origin:"Origin", price: "price" },
-{ id:6, name: "Coffee Name", description: "Description", origin: "Origin", price: "price"},
-
 
 ];
 export function ProductProvider({ children }) {

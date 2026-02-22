@@ -4,7 +4,7 @@ body, html {
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
-  background-color: #8B5E3C; 
+  background-color: #3c8b43; 
 }
 
 
@@ -12,7 +12,7 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #A67C52;
+  background-color: #52a672;
   padding: 15px 20px;
   color: white;
 }
@@ -35,7 +35,7 @@ body, html {
   justify-content: center;
   align-items: center;
   height: 60vh;
-  background-color: #A67C52; 
+  background-color: #2e6831; 
   color: white;
   text-align: center;
   padding: 0 20px;
@@ -56,14 +56,14 @@ body, html {
 .shop-container {
   display: flex;
   min-height: 100vh;
-  background-color: #8B5E3C;
+  background-color: #5c8b3c;
 }
 
 
 .shop-sidebar {
   width: 250px;
   padding: 40px 20px;
-  background-color: #A67C52;
+  background-color: #47aa70;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -113,7 +113,7 @@ body, html {
 
 
 .coffee-card, .product-card {
-  background-color: #D7C4B7; 
+  background-color: #b7d7bf; 
   color: #3E2723; 
   border-radius: 12px;
   padding: 25px 15px;
@@ -265,7 +265,7 @@ body, html {
 
 .admin-page {
   min-height: 100vh;
-  background-color: #8B5E3C;
+  background-color: #1f0320;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,7 +273,7 @@ body, html {
 
 
 .admin-card {
-  background-color: #6F4E37;
+  background-color: #37466f;
   padding: 40px;
   width: 450px;
   border-radius: 15px;
@@ -306,7 +306,7 @@ body, html {
   padding: 10px;
   border: none;
   border-radius: 6px;
-  background-color: #A0522D;
+  background-color: #a50952;
   color: white;
   cursor: pointer;
 }

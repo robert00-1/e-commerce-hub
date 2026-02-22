@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ethiopian Yirgacheffe",
+      "description": "Floral and citrus notes",
+      "origin": "Ethiopian",
+      "price": 15.99,
+      "location": "Location 1"
+    },
+    {
+      "id": 2,
+      "name": "Colombian Supremo",
+      "description": "Rich chocolate flavor",
+      "origin": "Colombia",
+      "price": 12.5,
+      "location": "Location 2"
+    }
+  ]
+}

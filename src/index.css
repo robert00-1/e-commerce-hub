@@ -1,0 +1,320 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #8B5E3C; 
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A67C52;
+  padding: 15px 20px;
+  color: white;
+}
+
+.navbar span {
+  cursor: pointer;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.navbar .active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #A67C52; 
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.page-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.page-description {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+
+.shop-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #8B5E3C;
+}
+
+
+.shop-sidebar {
+  width: 250px;
+  padding: 40px 20px;
+  background-color: #A67C52;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.shop-sidebar input {
+  padding: 10px 15px;
+  border-radius: 20px; 
+  border: none;
+  background-color: #E0E0E0;
+  outline: none;
+  width: 90%;
+}
+
+.shop-sidebar strong {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.shop-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shop-sidebar li {
+  cursor: pointer;
+  padding: 8px 0;
+  transition: all 0.2s;
+}
+
+.shop-sidebar li:hover {
+  text-decoration: underline;
+}
+
+
+.shop-products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 25px;
+  padding: 40px;
+  align-content: start;
+  background-color: #111;
+}
+
+
+.coffee-card, .product-card {
+  background-color: #D7C4B7; 
+  color: #3E2723; 
+  border-radius: 12px;
+  padding: 25px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 220px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+}
+
+.coffee-card h3, .product-card h3, .product-card h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.4rem;
+}
+
+.coffee-card p, .product-description, .product-card p {
+  margin: 2px 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.coffee-card .price, .product-price {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #4caf50;
+}
+
+.product-origin {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+
+.shop-products p {
+  grid-column: span 4;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+
+
+.portal-title {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+}
+
+
+.portal-content {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.sidebar, .ProductForm {
+  width: 100%;
+  max-width: 400px;        
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;  
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.product-card {
+  width: 100%;
+  background-color: #555;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;              
+  width: 100%;
+  max-width: 400px;       
+}
+
+.product-form label {
+  font-weight: bold;
+  color: white;
+}
+
+.product-form input {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.product-form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;  
+  gap: 15px;               
+  width: 100%;
+  max-width: 400px;        
+}
+
+
+.product-form label {
+  font-weight: bold;
+  color: white;
+}
+
+
+.product-form input {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+
+.product-form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.admin-page {
+  min-height: 100vh;
+  background-color: #8B5E3C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.admin-card {
+  background-color: #6F4E37;
+  padding: 40px;
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+.portal-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+.admin-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.admin-card input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+
+.admin-card button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #A0522D;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-card button:hover {
+  background-color: #8B4513;
+}
+.admin-btn {
+  padding: 5px 10px; 
+  white-space: nowrap;
+}
